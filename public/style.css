@@ -1,0 +1,86 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Playfair Display';
+    background-color: #2F3E46;
+}
+
+.panel {
+    height: 100%;
+    width: 100%;
+    margin-bottom: 400px;
+    box-shadow: 0px 5px 10px black;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    background-color: #2F3E46;
+}
+
+.title {
+    font-size: 15rem;
+    font-weight: normal;
+    color: #CAD2C5;
+    margin: 0.5em;
+}
+
+.about {
+    display: flex;
+    align-items: start;
+    background-color: #354F52;
+}
+
+.title2 {
+    font-size: 10rem;
+    font-weight: normal;
+    color: #CAD2C5;
+    margin: 0.5em;
+}
+
+.work {
+    display: flex;
+    align-items: start;
+    background-color: #52796F;
+}
+
+.contact {
+    display: flex;
+    align-items: start;
+    background-color: #84A98C;
+    margin-bottom: 0;
+}
+
+#triangle {
+    width: 0;
+    height: 0;
+    top: 50%;
+    right: 25%;
+    position: absolute;
+    z-index: 100;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 172px solid #84A98C;
+}
+
+@font-face {
+    font-family: 'Futura-Book';
+    src: url('./assets/futura_book.otf');
+}
+
+@font-face {
+    font-family: 'Futura-Medium';
+    src: url('./assets/futura-medium.otf');
+}
+
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+::-webkit-scrollbar {
+  /* display: none; */
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+body {
+  /* -ms-overflow-style: none;  IE and Edge */
+  /* scrollbar-width: none;  Firefox */
+}
