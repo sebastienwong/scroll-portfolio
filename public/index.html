@@ -8,7 +8,7 @@
 
     <!-- Styles -->
     <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display|Lato:300">
 
     <!-- Scripts -->
     <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
@@ -25,24 +25,56 @@
       </h1>
     </section>
     <section class="panel about">
-      <h1 class="title2">
-        About 
-      </h1>
-      <img>
+      <div class="text">
+        <h1 class="title2">
+          About 
+        </h1>
+        <p class="info">
+          I'm a computer science student from the University of Calgary, graduating May 2022. I have a passion for web development
+          and design, and a career goal for me is to become a front-end developer.
+        </p>
+      </div>
+      <div class="about-dec">
+        <img id="my-pic" src="assets/me.png" alt="My picture">
+        <div id="circle1"></div>
+        <div id="circle2"></div>
+      </div>
     </section>
     <section class="panel work">
-      <h1 class="title2">
-        Work 
-      </h1>
+      <div class="text">
+        <h1 class="title2">
+          Work 
+        </h1>
+        <p class="info">
+          Here is some of the work I have developed for my Human Computer Interaction course.
+        </p>
+      </div>
+      <div class="gallery">
+        <div class="slide">
+          <img class="work-img" src="assets/p0_thumbnail.png">
+        </div>
+        <div class="slide" style="display:none">
+          <img class="work-img" src="assets/p1_thumbnail.png">
+        </div>
+        <a class="prev arrow" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next arrow" onclick="plusSlides(1)">&#10095;</a>
+      </div>
     </section>
     <section class="panel contact">
-      <h1 class="title2">
-        Contact 
-      </h1>
+      <div class="text">
+        <h1 class="title2">
+          Contact 
+        </h1>
+        <p class="info">
+        </p>
+      </div>
     </section>
+    <!--
     <div id="triangle"></div>
+    -->
     
     <script src="scroll.js"></script>
+    <script src="gallery.js"></script>
   </body>
   <footer></footer>
 </html>
